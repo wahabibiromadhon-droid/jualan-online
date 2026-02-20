@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #2c3e50;
+    color: white;
+}
+
+nav a {
+    color: white-space;
+    text-decoration: #2c3e50;
+    margin-left: 15px;
+}
+
+
+hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color:#3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#produk {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.produk-costainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap;
+}
+
+.card {
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0,0,0,0.1);
+    background: white;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card button {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.wa {
+    display: inline-block;
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+
+/*Responsive */
+@media (max-width: 769px)  }
+    header  {
+        flex-direction: column;
+        text-align: center;
+    }
+}   

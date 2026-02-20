@@ -1,0 +1,3 @@
+function pesan() {
+    alert ("silahkan menghubungi kami via WhatApps untuk pemesanan");
+}
